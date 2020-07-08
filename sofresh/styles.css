@@ -156,7 +156,21 @@ p {
     
 }
 
+nav {
+    height: 3em;
+    font-size: 1.6em;
+}
 
+nav ul {
+    padding-top: 1em;
+   text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 23%;
+   
+}
 
 .card h3, #contactemail a, #contact p {
     padding-top: 1em;
@@ -293,4 +307,50 @@ button:hover {
     visibility: visible;
     display: block;
 }
+
+:root {
+    /* Set fade in duration */
+    --fade-time: 0.5s;
+  }
+  
+  .container {
+    max-width: 760px;
+    margin: auto;
+    border: #fff solid 3px;
+    background: #fff;
+  }
+  
+  .main-img img,
+  .imgs img {
+    width: 100%;
+  }
+  
+  .imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .imgs img {
+    cursor: pointer;
+  }
+  
+  /* Fade in animation */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn var(--fade-time) ease-in 1 forwards;
+  }
+  
+  /* Media Queries */
+  @media(max-width: 600px) {
+    .imgs {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 
