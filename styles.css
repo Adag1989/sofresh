@@ -1,0 +1,505 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(136, 138, 29);
+}
+
+body {
+    background: #333;
+    font-family: Arial, Helvetica, Sans-serif;
+    color: white;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.main-header {
+    font-family: 'Bowlby One SC', cursive;
+    margin-top: 1em;
+}
+
+.header :nth-child(2) {
+  margin-top: 0;
+}
+
+.cars {
+    min-height: 450px;
+    color: #333;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.boats {
+    margin-top: 1em;
+    color: #333;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.cars h2 {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    color: rgb(189, 192, 194);
+    text-decoration: underline;
+}
+
+.cars li {
+    text-align: center;
+    
+    padding-top: 0.5em;
+    color: rgb(189, 192, 194);
+    font-size: 1.2em;
+}
+
+.carsbg {
+    height: 450px;
+    width: 100%;
+    background: url(cars.jpg.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    background-size: cover;
+}
+
+.boatsbg {
+    height: 450px;
+    width: 100%;
+    background: url(boats.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    background-size: cover;
+}
+
+.RVbg {
+    height: 450px;
+    width: 100%;
+    background: url(rvs.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    background-size: cover;
+}
+
+.farmequipment {
+    height: 450px;
+    width: 100%;
+    background: url(farms.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    background-size: cover;
+}
+
+.portfolio {
+	display: grid;
+	grid-gap: 1.3rem;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+	box-shadow: var(--shadow);
+}
+
+.portfolio img {
+    max-height: 250px;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(136, 138, 29);
+    text-align: center;
+    padding: 1em, 1em, 0, 1em;
+    font-size: 3.7em;
+    line-height: 1.5em;
+    
+}
+
+h3 {
+    color: rgb(136, 138, 29);
+    text-align: center;
+    
+}
+
+
+
+.header {
+    padding-top: 1em;
+   
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 1.4em;
+    background: #fff;
+    color: #333;
+    padding: 1em;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    background: white;
+    color: #333;
+}
+
+.card h2 {
+    padding-top: 1em;
+    
+}
+
+nav {
+    height: 3em;
+    font-size: 1.6em;
+}
+
+nav ul {
+    padding-top: 1em;
+   text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 23%;
+   
+}
+
+.card h3, #contactemail a, #contact p {
+    padding-top: 1em;
+    color: yellow;
+    background: rgb(28, 116, 199);
+}
+
+a:hover {
+    
+    color: #333;
+}
+
+#contact {
+    background: rgb(28, 116, 199);
+    min-height: 10em;
+    padding-bottom: 1em;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#servicecard, #servicecard h2, #servicecard p {
+    color: rgb(136, 138, 29);
+    background: #333;
+}
+
+#servicesbtn {
+    margin: 1em;
+}
+
+#about h2{
+    color: #333;
+}
+
+#serviceh1 {
+    border-bottom: rgb(136, 138, 29) 1px solid;
+}
+
+#contactemail {
+    padding-top: 0;
+    margin-bottom: 0m;
+}
+
+
+#contactphone, #contactphone:visited  {
+    font-size: 1.4em;
+    margin-bottom: 5em;
+    margin-top: 0;
+    padding-top: 0;
+    color: yellow;
+    padding-bottom: 1.5em;
+}
+
+
+
+.showcase {
+    min-height: 450px;
+    width: 100%;
+}
+
+.showcase .showcasebg {
+    height: 450px;
+    width: 100%;
+    background: url(showcasebg.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+button {
+    width: 7em;
+    height: 3em;
+    border: rgb(136, 138, 29) solid 1px;
+    border-radius: 13px;
+    background: #333;
+    color: rgb(136, 138, 29);
+    margin-top: 11em;
+    margin-left: 1em;
+    font-size: 1em;
+}
+
+button:hover {
+    background: rgb(136, 138, 29);
+    color: #333;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    
+    text-align: center;
+    position: fixed;
+    background: #333;
+}
+
+.navbar ul {
+    width: 100%;
+    font-size: 1.5em;
+   
+}
+
+.navbar ul ul {
+    border: none;
+    position: absolute;
+}
+
+.navbar li {
+    padding: 0.3em;
+    display: inline-block;    
+    width: 18%;
+    text-align: center;
+}
+
+.navbar ul li {
+    text-align: left;
+}
+.navbar ul li li {
+    visibility: hidden;
+    color:#fff;
+    background-color: #333;
+    
+    display: block;
+    font-size: 0.7em;
+    height: auto;
+    width: 100%;
+    
+    
+}
+
+.navbar ul li:hover li{
+    visibility: visible;
+    display: block;
+}
+
+:root {
+    /* Set fade in duration */
+    --fade-time: 0.5s;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 5rem;
+    border: #fff solid 3px;
+    background: #fff;
+  }
+  
+  .main-img img,
+  .imgs img {
+    width: 100%;
+  }
+  
+  .imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .imgs img {
+    cursor: pointer;
+  }
+  
+  /* Fade in animation */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn var(--fade-time) ease-in 1 forwards;
+  }
+  
+  /* Media Queries */
+  @media(max-width: 600px) {
+    .imgs {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .menu-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .menu-wrap .toggler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+  }
+  
+  .menu-wrap .hamburger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 0.5rem;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Hamburger Line */
+  .menu-wrap .hamburger > div {
+    position: relative;
+    flex: none;
+    width: 100%;
+    height: 2px;
+    background: rgb(136, 138, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+  }
+  
+  /* Hamburger Lines - Top & Bottom */
+  .menu-wrap .hamburger > div::before,
+  .menu-wrap .hamburger > div::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background: inherit;
+  }
+  
+  /* Moves Line Down */
+  .menu-wrap .hamburger > div::after {
+    top: 10px;
+  }
+  
+  /* Toggler Animation */
+  .menu-wrap .toggler:checked + .hamburger > div {
+    transform: rotate(135deg);
+  }
+  
+  /* Turns Lines Into X */
+  .menu-wrap .toggler:checked + .hamburger > div:before,
+  .menu-wrap .toggler:checked + .hamburger > div:after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  
+  /* Rotate On Hover When Checked */
+  .menu-wrap .toggler:checked:hover + .hamburger > div {
+    transform: rotate(225deg);
+  }
+  
+  /* Show Menu */
+  .menu-wrap .toggler:checked ~ .menu {
+    visibility: visible;
+  }
+  
+  .menu-wrap .toggler:checked ~ .menu > div {
+    transform: scale(1);
+    transition-duration: var(--menu-speed);
+  }
+  
+  .menu-wrap .toggler:checked ~ .menu > div > div {
+    opacity: 1;
+    transition:  opacity 0.4s ease 0.4s;
+  }
+  
+  .menu-wrap .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-wrap .menu > div {
+    background: #333;
+    opacity: 0.7;
+    border-radius: 50%;
+    width: 200vw;
+    height: 200vw;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+  }
+  
+  .menu-wrap .menu > div > div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  
+  .menu-wrap .menu > div > div > ul > li {
+    list-style: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .menu-wrap .menu > div > div > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.4s ease;
+  }
+  
